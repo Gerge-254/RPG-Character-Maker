@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>Rpg Character Maker </title>
+        <style>
+            body {
+                    background-image: url('DD.png');
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                 }
+    
+            .caixa {
+                      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                      background-color: white;
+                      width: 700px;
+                      height: 900px;
+                      padding: 20px;
+                      box-shadow: 0 4px 8px;
+                      border-radius: 10px;
+                      text-align: center;
+            }
+
+            #forca{
+                            width: 40px;
+                            padding: 5px;
+            }
+
+            #dex{
+                            width: 40px;
+                            padding: 5px;
+            }
+
+            #const{
+                            width: 40px;
+                            padding: 5px;
+            }
+
+            #int{
+                            width: 40px;
+                            padding: 5px;
+            }
+
+            #sab{
+                            width: 40px;
+                            padding: 5px;
+            }
+
+            #char{
+                            width: 40px;
+                            padding: 5px;
+            }
+         </style>   
+    </head>
+    <body>
+            <div class="caixa">
+            <h1> Faça seu Personagem (D 5°) </h1>
+            <p> Escolha um nome para seu personagem:
+            <input type="text" id="nome" name="nome" placeholder="Insira"></p>
+            <label for="raca">Selecione uma raça:</label>
+            <select name="race" id="race">
+                <option name="empty"></option>
+                <option name="anão">Anão</option>
+                <option name="elfo">Elfo</option>
+                <option name="halfling">Halfling</option>
+                <option name="humano">Humano</option>
+                <option name="draconato">Draconato</option>
+                <option name="meio-Orc">Meio-Orc</option>
+                <option name="gnomo">Gnomo</option>
+                <option name="meio-Elfo">Meio-Elfo</option>
+                <option name="tiefling">Tiefling</option>
+            </select>
+
+                <p><label for="classe">Selecione sua classe:</label>
+                <select name="classe" id="classe">
+                    <option name="empty1"></option>
+                    <option name="barbaro">Barbaro</option>
+                    <option name="bardo">Bardo</option>
+                    <option name="bruxo">Bruxo</option>
+                    <option name="clerigo">Clerigo</option>
+                    <option name="druida">Druida</option>
+                    <option name="feiticeiro">Feiticeiro</option>
+                    <option name="guerreiro">Guerreiro</option>
+                    <option name="ladino">Ladino</option>
+                    <option name="mago">Mago</option>
+                    <option name="monge">Monge</option>
+                    <option name="paladino">Paladino</option>
+                    <option name="patrulheiro">Patrulheiro</option>
+                </p>
+                </select>
+                <p>_____________________________________________________________</p>
+                <p>Agora vamos adicionar seus pontos!</p>
+                    <p>Força: <input type="text" id="forca" name="forca" placeholder="0"></p>
+                    <p>Destreza: <input type="text" id="dex" name="dex" placeholder="0"></p>
+                    <p>Constituição: <input type="text" id="const" name="const" placeholder="0"></p>
+                    <p>Inteligência: <input type="text" id="int" name="int" placeholder="0"></p>
+                    <p>Sabedoria: <input type="text" id="sab" name="sab" placeholder="0"></p>
+                    <p>Carisma: <input type="text" id="char" name="char" placeholder="0"></p>
+                </div>
+    
+    </body>
+</html>
